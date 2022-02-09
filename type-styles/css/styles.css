@@ -1,0 +1,40 @@
+html{
+    font-family: 'Crimson Pro', serif;
+    font-size: 14pt;
+    text-indent: 25pt;
+    
+}
+h1{
+    font-size: 30pt;
+}
+h2{
+    font-size: 20pt;
+    font-style: italic;
+}
+
+h3{
+    color: gray;
+}
+
+.weight{
+    font-weight: bold;
+}
+
+.style{
+   font-style: italic; 
+}
+
+.spacing{
+    letter-spacing: 5pt;
+}
+
+.transform{
+ text-transform: capitalize;
+}
+
+.decoration{
+ text-decoration: underline;
+}
+
+
+
