@@ -1,0 +1,14 @@
+html{
+    padding-left: 25pt;
+    padding-right: 25pt;
+}
+h1{
+    padding-top: 10pt;
+}
+h3{
+    font-weight: normal;
+}
+
+img{
+    max-width: 50%;
+}
