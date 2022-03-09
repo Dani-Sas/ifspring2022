@@ -1,0 +1,105 @@
+body{
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+h1, h2, h3{
+    margin:0;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+
+.contents{
+    background-color: rgba(0,0,255,.25);
+    width: 960px;
+    margin:auto;
+    padding: 42px 0 56px 0;
+}
+
+header{
+    background-color: rgba(255,0,0,.25);
+    text-align: center;
+    /* background-image: url(https://media.nationalgeographic.org/assets/photos/380/216/1c9ab248-0c9c-413d-b0c8-ce8aec56b821.jpg); */
+    background-size: cover;
+    background-position: center;
+}
+
+header .contents{
+    padding: 152px 0  186px 0;
+}
+header h1{
+font-size: 80px;
+margin-bottom: 0;
+}
+
+header h2{
+    font-size: 30px;
+    line-height: 1.1;
+}
+
+#section1 img{
+    float: right;
+    border: 1px solid #ffffff;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+#section1 {
+    font-size: 18px;
+}
+
+#section1 p{
+    line-height: 1.4;
+    margin-bottom: -2px;
+    
+}
+.grid{
+    padding: 0;
+}
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.grid li{
+    display: block;
+    line-height: 1.4;
+}
+
+#section2 img{
+    float: left;
+    margin-bottom: 24px;
+    margin-right: 12px;
+}
+
+#section2 h3{
+    font-size: 20px;
+}
+#section2 p{
+    margin-top: 5px;
+    font-size: 18px;
+
+}
+#section2 .contents{
+    padding-bottom: 24px;
+}
+
+#section3 div{
+    padding-top: 38px;
+}
+
+#section3 p{
+    text-align: center;
+    padding: 0 125px;
+    font-size: 26px;
+    line-height: 1.4;
+}
+
+
+
+
+
+
