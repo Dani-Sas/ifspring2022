@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    background: #C8B6EC;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin: 0;
+}
+h3{
+    margin: 0;
+}
+h4{
+    margin: 0;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+main{
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgba(0,0,0,0.1), -30px 0px 40px rgba(0,0,0,0.1);
+}
+
+#landing{
+    background: #9370FF;
+}
+
+#landing-text{
+    display: flex;
+    flex: 0 1 40vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+ }
+
+ #landing-text h2{
+    color: rgb(56, 50, 50);
+}
+
+#landing-image{
+    background: url(https://preppykitchen.com/wp-content/uploads/2019/06/Chocolate-cake-recipe-1200a.jpg);
+    background-position:center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    flex: 0 1 60vw;
+    margin: 0;
+
+}
+
+#header{
+    padding: 1rem;
+    text-align: center;
+    background: #9370FF;
+    color: rgb(56, 50, 50);
+    font-size: 3rem;
+    }
+    #paragraph{
+        padding: 1.2rem;
+    }
+
+    #ingredients{
+        padding: 1.2rem;
+    }
+
+    #instructions{
+        padding: 1.2rem;
+    }
+
+    #restriction{
+        padding: 1.2rem;
+    }
+
+    .big{
+        font-size: 40px;
+    }
+
+    li{
+        padding:.30rem;
+        
+    }
+    .recipe-image{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+
+    }
+
+
+
+
+
+
+@media(min-width:700px){
+    #landing{
+        display: flex;
+        height: 100%;
+    }
+    
+    #landing-text{
+        height: 100vh;
+    }
+    
+    #landing-image{
+        height: 100vh;
+    }
+
+    #paragraph{
+        font-size:1.5rem;
+    }
+
+    #ingredients{
+        font-size: 1.5rem;
+    }
+
+    #instructions{
+        font-size: 1.5rem;
+    }
+
+    #restrictions{
+        font-size: 1.5rem;
+    }
+
+}
