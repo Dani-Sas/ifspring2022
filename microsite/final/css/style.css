@@ -1,0 +1,201 @@
+body{
+    margin: 0;
+    background: #eee;
+    height: auto;
+    font-family: acumin-pro, sans-serif;
+    font-style: normal; 
+}
+
+h1{
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-family: bd-retrocentric, sans-serif;
+    margin: 0;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+h3{
+    font-family: bd-retrocentric, sans-serif;
+    font-size: 2rem; 
+}
+
+main{
+    max-width: 1100px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgba(0,0,0,0.1), -30px 0px 40px rgba(0,0,0,0.1);
+}
+
+.topnav {
+    background-color:#4A0045;;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+
+  }
+
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: bd-retrocentric, sans-serif;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .topnav a.active {
+    background-color: #790071;
+    color: white;
+  }
+
+img{
+    display: block;
+    width: 100%;
+}
+
+#landing{
+    background: #fff;
+}
+
+#landing-text{
+    display: flex;
+    flex: 0 1 40vw;
+    height: 50vh;
+    align-items: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+ }
+
+ #landing-text h1{
+    justify-content: left;
+    text-align: left; 
+    color: #4A0045;
+ }
+
+ #landing-text h2{
+    justify-content: left;
+    text-align: left; 
+ }
+
+ #landing-image{
+    background: url(https://uhdwallpapers.org/uploads/converted/19/12/30/alpine-scenery-from-kleine-scheidegg-switzerland-1600x900_788958-mm-90.jpg);
+    background-position:center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    flex: 0 1 60vw;
+    margin: 0;
+}
+
+
+/* #content{
+    padding: 1.5rem;
+    } */
+
+    /* .content-image{
+
+    }
+
+    .content-text{
+
+    } */
+
+    .header{
+        padding: 1.5rem;
+        text-align: center;
+        background: rgb(157, 240, 255);
+        color: #000000;
+    }
+
+    .caption{
+        padding: 1.5rem;
+    }
+
+    
+
+    /* #mechanical1{
+        background: url(https://uhdwallpapers.org/uploads/converted/19/12/30/alpine-scenery-from-kleine-scheidegg-switzerland-1600x900_788958-mm-90.jpg);
+        background-position:center ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50vh;
+        flex: 0 1 60vw;
+        margin: 0;
+    } */
+
+
+    footer{
+        text-align: center;
+        padding: 2rem 1rem;
+        margin: auto;
+        color: rgb(51, 51, 51);
+    }
+    
+    footer h3{
+        font-size: 3rem;
+        margin-bottom: 0;
+    }
+
+
+    .grid ul{
+        list-style: none;
+    }
+    .grid li{
+        margin:5px 0;
+        
+    }
+
+
+    @media(min-width:700px){
+        #landing{
+            display: flex;
+            height: 100%;
+        }
+        
+        #landing-text{
+            height: 100vh;
+        }
+        
+        #landing-image{
+            height: 100vh;
+        }
+
+       .caption{
+           padding-left: 2.5rem;
+           padding-right: 2.5rem;
+       } 
+
+
+    }
+    @media(min-width:700px){
+    .grid li{
+        width: 50%;
+        margin-bottom: 1rem;
+    
+    }
+
+    .using-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .using-grid li{
+        width: 100%;
+    }
+}
+
